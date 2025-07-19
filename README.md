@@ -24,6 +24,9 @@
 <div align="justify">
   You can read full version of reference through
   <a href="https://easychair.org/conferences2/submission_download?a=34672663&submission=7283684&upload=151756">Paper</a>.
-</div>
+</div>  
+
+### How semantics segmentation deals with those problems
+
 
  
