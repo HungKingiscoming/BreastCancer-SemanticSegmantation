@@ -49,4 +49,57 @@ namely the Breast Ultrasound Images (BUSI) and the Breast Cancer Ultrasound Imag
 </div>  
 <div align="justify">
   Both of those datasets are published and dowloaded through <a href="https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset">Breast Ultrasound Images (BUSI)</a> and <a href="https://data.mendeley.com/datasets/k6cpmwybk3/1">Breast Cancer Ultrasound Image (BUSI_WHU)</a>.
-</div>
+</div>  
+
+### Experimental results  
+<div align="justify">
+  Deep Learning-Based Semantic Segmentation models can be classified into two main types: CNN-based methods (Unet, PSPNet, DeeplabV3+) and Transformer-based models (TransUnet, SwinUnet,and Segformer)
+</div>  
+To obtain the results of all models on both datasets, we utilized Kaggle as the computing platform.  
+
+Notebooks use Breast Ultrasound Images (BUSI) dataset (Those notebook may not have equal results compared to our reference because of different runs):
+
+Unet: [Notebook]()  
+
+PSPNet: [Notebook]()  
+
+DeepLabV3+: [Notebook]()  
+
+Segformer: [Notebook]()  
+ 
+SwinUnet: [Notebook]()  
+
+TransUnet: [Notebook]()  
+You can see our detection score of compared semantic segmentation models on the Potholes-Detection dataset:
+| Method       | Accuracy (%) | mIoU (%) | Dice (%) |
+|--------------|--------------|----------|-----------|
+| Unet         | 87.46        | 82.00    | 89.54     |
+| PSPNet       | 85.45        | 79.90    | 88.08     |
+| DeepLabV3+   | 87.28        | 81.79    | 89.40     |
+| SegFormer    | 87.52        | 82.45    | 89.85     |
+| TransUnet    | 88.00        | 86.73    | 85.60     |
+| SwinUnet     | 86.44        | 87.15    | 96.89     |
+
+
+Notebooks use Breast Cancer Ultrasound Image (BUSI_WHU) Dataset (Those notebook may not have equal results compared to our reference because of different runs) :
+
+Unet: [Notebook]()  
+
+PSPNet: [Notebook]()  
+
+DeepLabV3+: [Notebook]()  
+
+Segformer: [Notebook]()  
+ 
+SwinUnet: [Notebook]()  
+
+TransUnet: [Notebook]()  
+You can see our detection score of compared semantic segmentation models on the Potholes-Detection dataset:
+| Method       | Accuracy (%) | mIoU (%) | Dice (%) |
+|--------------|--------------|----------|-----------|
+| Unet         | 87.46        | 82.00    | 89.54     |
+| PSPNet       | 85.45        | 79.90    | 88.08     |
+| DeepLabV3+   | 87.28        | 81.79    | 89.40     |
+| SegFormer    | 87.52        | 82.45    | 89.85     |
+| TransUnet    | 88.00        | 86.73    | 85.60     |
+| SwinUnet     | 86.44        | 87.15    | 96.89     |
