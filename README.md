@@ -71,7 +71,7 @@ SwinUnet: [Notebook](https://www.kaggle.com/code/giangtunhng/swin-unet-breast-1b
 
 TransUnet: [Notebook](https://www.kaggle.com/code/giangtunhng/transunet-breast-1)  
 You can see our detection score of compared semantic segmentation models on the BUSI dataset:
-| Method       | Accuracy (%) | mIoU (%) | Dice (%)  |
+| Method       | Accuracy     | mIoU     | Dice      |
 |--------------|--------------|----------|-----------|
 | Unet         | 0.946        | 0.560    | 0.718     |
 | PSPNet       | 0.950        | 0.539    | 0.701     |
@@ -95,7 +95,7 @@ SwinUnet: [Notebook](https://www.kaggle.com/code/giangtunhng/swin-unet-breast-2b
 
 TransUnet: [Notebook](https://www.kaggle.com/code/giangtunhng/transunet-breast-2)  
 You can see our detection score of compared semantic segmentation models on the BUSI_WHU dataset:
-| Method       | Accuracy (%) | mIoU (%) | Dice (%)  |
+| Method       | Accuracy     | mIoU (%) | Dice      |
 |--------------|--------------|----------|-----------|
 | Unet         | 0.979        | 0.758    | 0.862     |
 | PSPNet       | 0.975        | 0.705    | 0.827     |
