@@ -59,47 +59,47 @@ To obtain the results of all models on both datasets, we utilized Kaggle as the 
 
 Notebooks use Breast Ultrasound Images (BUSI) dataset (Those notebook may not have equal results compared to our reference because of different runs):
 
-Unet: [Notebook]()  
+Unet: [Notebook](https://www.kaggle.com/code/datnguyentien204/unet-breast-1b)  
 
-PSPNet: [Notebook]()  
+PSPNet: [Notebook](https://www.kaggle.com/code/datnguyentien204/pspnet-breast-1b)  
 
-DeepLabV3+: [Notebook]()  
+DeepLabV3+: [Notebook](https://www.kaggle.com/code/datnguyentien204/deeplabv3-breast-1-without-expanded-dataset)  
 
-Segformer: [Notebook]()  
+Segformer: [Notebook](https://www.kaggle.com/code/datnguyentien204/segformer-breast-1b)  
  
-SwinUnet: [Notebook]()  
+SwinUnet: [Notebook](https://www.kaggle.com/code/giangtunhng/swin-unet-breast-1b)  
 
-TransUnet: [Notebook]()  
-You can see our detection score of compared semantic segmentation models on the Potholes-Detection dataset:
-| Method       | Accuracy (%) | mIoU (%) | Dice (%) |
+TransUnet: [Notebook](https://www.kaggle.com/code/giangtunhng/transunet-breast-1)  
+You can see our detection score of compared semantic segmentation models on the BUSI dataset:
+| Method       | Accuracy (%) | mIoU (%) | Dice (%)  |
 |--------------|--------------|----------|-----------|
-| Unet         | 87.46        | 82.00    | 89.54     |
-| PSPNet       | 85.45        | 79.90    | 88.08     |
-| DeepLabV3+   | 87.28        | 81.79    | 89.40     |
-| SegFormer    | 87.52        | 82.45    | 89.85     |
-| TransUnet    | 88.00        | 86.73    | 85.60     |
-| SwinUnet     | 86.44        | 87.15    | 96.89     |
+| Unet         | 0.946        | 0.560    | 0.718     |
+| PSPNet       | 0.950        | 0.539    | 0.701     |
+| DeepLabV3+   | 0.965        | 0.654    | 0.791     |
+| TransUnet    | 0.963        | 0.647    | 0.746     |
+| Swin-Unet    | 0.943        | 0.712    | 0.776     |
+| Segformer    | 0.944        | 0.594    | 0.745     |
 
 
 Notebooks use Breast Cancer Ultrasound Image (BUSI_WHU) Dataset (Those notebook may not have equal results compared to our reference because of different runs) :
 
-Unet: [Notebook]()  
+Unet: [Notebook](https://www.kaggle.com/code/datnguyentien204/unet-breast-2b)  
 
-PSPNet: [Notebook]()  
+PSPNet: [Notebook](https://www.kaggle.com/code/datnguyentien204/pspnet-breast-2b)  
 
-DeepLabV3+: [Notebook]()  
+DeepLabV3+: [Notebook](https://www.kaggle.com/code/datnguyentien204/deeplabv3-breast-2a)  
 
-Segformer: [Notebook]()  
+Segformer: [Notebook](https://www.kaggle.com/code/giangtunhng/segformer-breast-2)  
  
-SwinUnet: [Notebook]()  
+SwinUnet: [Notebook](https://www.kaggle.com/code/giangtunhng/swin-unet-breast-2b)  
 
-TransUnet: [Notebook]()  
-You can see our detection score of compared semantic segmentation models on the Potholes-Detection dataset:
-| Method       | Accuracy (%) | mIoU (%) | Dice (%) |
+TransUnet: [Notebook](https://www.kaggle.com/code/giangtunhng/transunet-breast-2)  
+You can see our detection score of compared semantic segmentation models on the BUSI_WHU dataset:
+| Method       | Accuracy (%) | mIoU (%) | Dice (%)  |
 |--------------|--------------|----------|-----------|
-| Unet         | 87.46        | 82.00    | 89.54     |
-| PSPNet       | 85.45        | 79.90    | 88.08     |
-| DeepLabV3+   | 87.28        | 81.79    | 89.40     |
-| SegFormer    | 87.52        | 82.45    | 89.85     |
-| TransUnet    | 88.00        | 86.73    | 85.60     |
-| SwinUnet     | 86.44        | 87.15    | 96.89     |
+| Unet         | 0.979        | 0.758    | 0.862     |
+| PSPNet       | 0.975        | 0.705    | 0.827     |
+| DeepLabV3+   | 0.983        | 0.789    | 0.882     |
+| TransUnet    | 0.986        | 0.796    | 0.881     |
+| Swin-Unet    | 0.993        | 0.812    | 0.831     |
+| Segformer    | 0.985        | 0.798    | 0.888     |
