@@ -103,3 +103,11 @@ You can see our detection score of compared semantic segmentation models on the 
 | TransUnet    | 0.986        | 0.796    | 0.881     |
 | Swin-Unet    | 0.993        | 0.812    | 0.831     |
 | Segformer    | 0.985        | 0.798    | 0.888     |
+<!-- ![image](resources/pot.jpg) -->
+<div align="center">
+  <img src="./Resources/breastcancer.png" alt="Image 1" height="500" weight="600" style="margin-right: 10px;">
+</div>
+
+<p align="center">
+  Visualize some results
+</p>
